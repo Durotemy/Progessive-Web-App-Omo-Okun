@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+   
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,6 +12,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+
+  --color-okunGreen: #2D6A4F;
+  --color-okunBlue: #3A86FF;
+  --color-okunBrown: #4B2E19;
+  --color-okunWhite: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
