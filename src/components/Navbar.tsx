@@ -1,12 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { navBarPrimary } from "@/contants";
-import { CiMenuFries } from "react-icons/ci";
 import { IoIosNotificationsOutline } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <nav className="text-2xl bg-okunGreen w-full flex flex-row items-center justify-between p-4">
+    <nav className="hidden md:flex text-2xl bg-okunGreen w-full flex-row items-center justify-between p-4">
       <Image
         src="/images/OkunLogo.png"
         alt="Logo"
